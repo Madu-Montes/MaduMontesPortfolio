@@ -8,10 +8,10 @@ import { Component } from '@angular/core';
   styleUrl: './navbar.css',
 })
 export class Navbar {
-toggleMenu() {
-throw new Error('Method not implemented.');
-}
   menuOpen = false;
 
-  
+  toggleMenu() {
+    this.menuOpen = !this.menuOpen;
+  }
+
 }

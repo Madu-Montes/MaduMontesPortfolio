@@ -1,0 +1,19 @@
+.container{
+  min-height: 80vh;
+}
+
+.box-1{
+  margin: 1rem;
+  width: 70%;
+}
+
+.box-2{
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-2 img{
+  width: 400px;
+}

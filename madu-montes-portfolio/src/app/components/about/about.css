@@ -1,0 +1,21 @@
+.container-about {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box-1 img{
+  max-width: 70%;
+}
+
+.box-1 .tags{
+  gap: 1rem;
+}
+
+.tags span{
+ border: 1px solid black;
+ margin: 1rem;
+}
+
+.container-about .box-2{
+  max-width: 50%;
+}

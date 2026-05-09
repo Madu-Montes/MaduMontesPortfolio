@@ -1,29 +1,33 @@
 <nav>
-  <div class="container d-flex align-items-center justify-content-between">
+  <div class="container d-flex align-items-center">
     <div class="nav-left">
       <!-- <img src="" alt="logo"> -->
-      <h2>Madu Montes</h2>
+      <h2>Madu</h2>
     </div>
 
-    <div class="nav-center d-none d-md-flex">
-      <ul>
+    <div class="nav-center">
+      <ul class="d-none d-md-flex">
         <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
-        <li><a href="#projetos">Projetos</a></li>
-        <li><a href="#contato">Contato</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contat">Contat</a></li>
       </ul>
     </div>
 
-    <div class="nav-right d-flex d-md-none">
-      <div class="nav-burger" (click)="toggleMenu()">
+    <div class="nav-right">
+      <div class="nav-burger d-flex d-md-none" (click)="toggleMenu()">
         <i class="bi bi-list"></i>
       </div>
-      <ul>
+      @if (menuOpen) {
+      <ul class="mobile-menu d-flex d-md-none">
         <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
-        <li><a href="#projetos">Projetos</a></li>
-        <li><a href="#contato">Contato</a></li>
+        <li><a href="##projects">Projects</a></li>
+        <li><a href="#contat">Contat</a></li>
       </ul>
+      }
     </div>
   </div>
 </nav>
